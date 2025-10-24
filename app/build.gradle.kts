@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace = "com.android4you.textrecognition"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.android4you.textrecognition"
-        minSdk = 24
+        minSdk = 34
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -71,4 +71,5 @@ dependencies {
 
     // ML Kit Text Recognition
     implementation(libs.text.recognition)
+    implementation(libs.text.recognition.chinese)
 }
